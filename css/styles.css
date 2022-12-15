@@ -218,3 +218,127 @@ body {
   color: #ff00b4;
   margin-top: 25px;
 }
+
+/* //Container_03 */
+.container_03 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120vh;
+  background-color: #061347;
+}
+.space_title_container_03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #fff;
+  width: 20%;
+  height: 10vh;
+  border-radius: 10px;
+}
+.text_title_container_03 {
+  font-family: "Roboto";
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  line-height: 22px;
+  color: #fff;
+}
+.space_customer_arrtists {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  margin-top: 40px;
+}
+.item_customer_arrtists {
+  width: 100%;
+  height: 80vh;
+}
+.space_image_item_customer_arrtists {
+  width: 100%;
+  height: 100%;
+}
+.image_item_customer_arrtists {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.space_tag_name_customer_arrtists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 6vh;
+  background-color: #ff00b4;
+}
+.text_tag_name_customer_arrtists {
+  font-family: "Roboto";
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  line-height: 22px;
+  color: #fff;
+}
+
+/* // Container 04 */
+.container_04 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  background-image: url("../images/background_container_04.png");
+}
+
+/* // Container_05 */
+
+.container_05 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/background_container_05.png");
+}
+
+/* // Container_06 */
+
+.container_06 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/background_container_06.png");
+}
+
+/* // Container_06 */
+
+.container_07 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  background-color: #061347;
+}
+
+/* //Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: #0b168d;
+  color: #fff;
+}
