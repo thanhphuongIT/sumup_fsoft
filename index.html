@@ -19,9 +19,9 @@
   </head>
   <body>
     <div class="container_01">
-      <img class="background_container01" src="./images//background01.jpeg" />
+      <div class="background_container01" src="./images//background01.jpeg"> </div>
       <div class="space_image_logo">
-        <img class="image_logo_fsoft" src="./images/logoFsoft.png" />
+        <img class="image_logo_fsoft" src="./images/logoFsoft.png"/>
       </div>
       <div class="space_title_sumup">
         <header class="title_sumup" data-text="FSOFT SUMUP 2022">
@@ -34,24 +34,24 @@
       <div class="space_count_down">
         <div class="space_time_count_down">
           <div class="space_item_time">
-            <span class="text_number_time">155</span>
+            <span class="text_number_time" id="countdown-days">155</span>
             <span class="text_decription_time">Days</span>
           </div>
           <div class="space_item_time">
-            <span class="text_number_time">02</span>
+            <span class="text_number_time" id="countdown-hours">02</span>
             <span class="text_decription_time">Hours</span>
           </div>
           <div class="space_item_time">
-            <span class="text_number_time">20</span>
+            <span class="text_number_time" id="countdown-minutes">20</span>
             <span class="text_decription_time">Minutes</span>
           </div>
           <div class="space_item_time">
-            <span class="text_number_time">00</span>
+            <span class="text_number_time" id="countdown-seconds">00</span>
             <span class="text_decription_time">Seconds</span>
           </div>
         </div>
         <div class="space_date_location">
-          <span class="text_date">january 13-22 </span>
+          <span class="text_date">january 13 - 22 </span>
           <span class="text_location">FTOWN 3 - HO CHI MINH CITY</span>
         </div>
       </div>
@@ -253,5 +253,8 @@
       </div>
     </div>
     <div class="footer">Copyright © 2022 All rights reserved</div>
+    <script rel="javascript" src="./js/moment.min.js"></script>
+    <script rel="javascript" src="./js/jquery.min.js"></script>
+    <script src="js/control.js"></script>
   </body>
 </html>
