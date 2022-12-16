@@ -24,17 +24,13 @@ body {
 }
 @keyframes animationContainer01 {
   from {
-    transform: skew(-0.06turn, deg);
     transform: rotate(0);
     scale: 1.3;
-    /* filter: blur(0); */
     background-image: url("../images/background01.jpeg");
   }
   to {
-    transform: skew(0.312rad);
-    transform: rotate(10deg);
+    transform: rotate(3deg);
     scale: 2;
-    /* filter: blur(0.5rem); */
     background-image: url("../images/background011.jpeg");
   }
 }
